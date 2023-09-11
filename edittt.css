@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+#mainbox{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+#box1{
+    background-color: white;
+    color: magenta;
+    border: 6px solid red;
+    text-shadow: 1px 1px purple;
+    border-radius: 20px;
+    margin: 5px 500px 0px 500px;
+    height: 150px;
+    width: 350px;
+    text-align: center;
+    font-style: italic;
+    box-shadow: 6px 6px purple;
+}
+#container1{
+    border: 6px solid green;
+}
+.box1{
+    background-color: white;
+    border: 6px solid red;
+    border-radius: 15px;
+    box-shadow: 6px 6px purple;
+    text-shadow: 1px 1px purple;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.box2{
+    background-color: white;
+    border: 6px solid red;
+    border-radius: 15px;
+    box-shadow: 6px 6px purple;
+    width: 220px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+.container2{
+    display: flex;
+    /* justify-content: space-evenly; */
+    position: relative;
+    height: 550px;
+}
+.container3{
+    background-color: greenyellow;
+    color: red;
+    border: 7px solid red;
+    box-shadow: 7px 7px purple;
+    display: flex;
+    z-index: 1;
+    border-radius: 15px;
+    font-style: italic;
+    width: 450px;
+    height: 85px;
+    position: fixed;
+    top: 60%;
+    right: 35%;
+}
+.box3{
+    border-radius: 15px;
+    box-shadow: 6px 6px purple;
+    text-shadow: 1px 1px purple;
+    width: 220px;
+    height: 200px;
+    background-color: white;
+    border: 6px solid red;
+    font-weight: bolder;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+.box4{
+    border-radius: 15px;
+    box-shadow: 6px 6px purple;
+    text-shadow: 1px 1px purple;
+    width: 220px;
+    height: 200px;
+    background-color: white;
+    border: 6px solid red;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    top: 300px;
+    right: 50px;
+}
+.container5{
+    border: 5px solid purple;
+    width: 730px;
+    height: 650px;
+    margin: 40px 0px 30px 350px;
+    background-color: green;
+    position: relative;
+}
+.heading{
+    text-align: center;
+}
+.container6{
+    border: 3px;    
+    background-color: yellow;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    font-style: italic;
+    position: absolute;
+    top: 70px;
+}
+.container7{
+    border: 3px;
+    background-color: yellow;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    font-style: italic;
+    position: absolute;
+    top: 70px;
+    left: 380px;
+}
+.container8{
+    border: 3px;
+    background-color: yellow;
+    height: 300px;
+    text-align: center;
+    font-style: italic;
+    width: 730px;
+    position: absolute;
+    top: 330px;
+}
